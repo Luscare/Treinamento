@@ -1,0 +1,111 @@
+<style>
+html{
+  height: 100vh;
+}
+body {
+	margin: 0px;
+  position: relative;
+  min-height: calc(100vh - 85px);
+  width: 100vw;
+}
+img.logoFooter{
+  width: 30%;
+
+}
+input.submeter{
+  border-radius: 20px;
+  background-color: orange;
+}
+
+p.descricao{
+  font-size: 15px;
+  margin-top: 0px;
+  text-align: justify;
+}
+p.footer{
+  text-align: center;
+}
+div.footer{
+  padding: 10px;
+  height: auto;
+  width: 100%;
+  background-color: orange;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: - calc(7.5vh + 20px);
+}
+
+img.imagem{
+  max-width: 100%;
+
+}
+img.logo{
+	width:100%;
+}
+
+.content{
+	width:calc(100vw - 250px);
+  margin-left:250px;
+  padding:1px 16px;
+}
+
+div.menu {
+    width: 250px;
+    position: fixed;
+    height: 100%;
+    autoflow: auto;
+}
+
+ul.menu{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: orange;
+    border: 1px solid black;
+}
+
+li a.active {
+    background-color: #ff8533;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #ff6600;
+    color: white;
+}
+
+li a.dropdown{
+	position:relative;
+    display: incline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: relative;
+    left:8%;
+    background-color: orange;
+    min-width: 160px;
+    width:92%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+li a.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+</style>

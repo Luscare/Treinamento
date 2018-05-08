@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang = "pt">
+<head>
+<title>Restaurante Japones</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="Restaurante.css">
+</head>
+
+<body background="img/fundo.png">
+
+<div class = "menu">
+	<a><img src= "img/logo.gif" class= "logo"></img> </a>
+	<ul class="menu">
+    	<li><a  href = "Home">Home</a></li>
+    	<li><a href="SobreNos">Sobre Nós</a></li>
+        <li><div  class= "dropdown">
+          <a href="#comidas">Comidas</a>
+                <div  class = "dropdown-content">
+                	<a class="active" href ="ComidasDoces"> Doces</a>
+                  <a href ="ComidasSalgadas">Salgados</a>
+                </div>
+            </div>
+        </li>
+    	<li><a href="Contato">Contato</a></li>
+
+	</ul>
+</div>
+
+
+<div class = "content">
+  <h1>Doces Japoneses</h1>
+
+  <div>
+    <img class="imagem" src="img/ChouxCream.jpg" alt="bolinhos recheado com creme de matcha"></img>
+    <p class="descricao">Delicioso Choux cream de matcha, o matcha é um igrediente muito popular na culinaria japonesa podendo ser utilizado de varias maneiras para fazer diferentes doces</p>
+  </div>
+
+  <div>
+    <img class="imagem" src="img/Dango.jpg" alt="um prato com tres espetos com 3 bolas em cada um deles cobertos por um molho"></img>
+    <p class="descricao">bolinhos feitos a partir de arroz servidos normalmente com chá verde</p>
+  </div>
+
+  <div>
+    <img class="imagem" src="img/IchigoDaifuku.jpg" alt="um moti recheado com morango cortado ao meio em cima de um pires"></img>
+    <p class="descricao">O ichigo Daifuku é um prato japones que consiste em um moti recheado com anko e um morango</p>
+  </div>
+
+  <div>
+    <img class="imagem" src="img/yaki-manju.jpg" alt="dois espeto em cima de um prato com cada um dos espetos contendo 4 yaki manju cobertos por um molho"></img>
+    <p class="descricao">o yaki manju é um manju grelhado ou cozido no forno contendo um recheio de anko</p>
+  </div>
+</div>
+
+<div class="footer">
+  <img src="img/logo.gif" alt="logo" class="logo" style="float:left">
+  <p class="footer">Rua amaro cavalheiro 340 Pinheiros Sao paulo<br>
+       telefone (11) 3443-0915 / (11) 3031-2330
+  </p>
+</div>
+</body>
+</html>

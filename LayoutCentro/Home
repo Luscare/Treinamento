@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang = "pt">
+<head>
+<title>Restaurante Japones</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="Restaurante.css">
+</head>
+
+<body background="img/fundo.png" class="centraliza">
+
+<div class = "menu">
+	<a><img src= "img/logo.gif" class= "logo"></img> </a>
+	<ul class="menu">
+    	<li><a class="active" href = "Home">Home</a></li>
+    	<li><a href="SobreNos">Sobre Nós</a></li>
+        <li><div  class= "dropdown">
+          <a href="#comidas">Comidas</a>
+                <div  class = "dropdown-content">
+                	<a href ="ComidasDoces"> Doces</a>
+                  <a href ="ComidasSalgadas">Salgados</a>
+                </div>
+            </div>
+        </li>
+    	<li><a href="Contato">Contato</a></li>
+
+	</ul>
+</div>
+
+
+<div class = "content">
+  <h1>Home</h1>
+
+<h2>Destaques Da semana</h2>
+
+  <div >
+  <img src="img/Care.jpg" alt="Prato com arroz e curry e uma colher ao lado" class = "imagem">
+  <p class="descricao">O care(curry) é um prato mtu popular no japão que pode ter varios niveis de picancia para pode agradar todos os paladares  </p>
+  </div>
+
+  <div >
+  <img src="img/Lamen.jpg" alt="Um bowl com duas carnes de porco um ovo cebolinha e um nori do lado com caldo ate perto da borda da vasilhame" class = "imagem">
+  <p class="descricao">O lamen eh um prato tradicional japones que consiste em basicamente 3 partes o macarrão, o dashi(caldo), e os ingredientes que o acompanham. Tambem existem versoes dele quente)(lamen) e frio (hiyashi) assim podendo ser comido durante o ano inteiro</p>
+  </div>
+
+  <div style="">
+  <img src="img/Takoyaki.jpg" alt="pote com 6 bolas de takoyaki(bolinho de polvo) com molho em cima junto com maionese e Katsuobushi especie de peixe seco ralado" class = "imagem">
+  <p class="descricao">O takoyaki é um prato muito popular em festivais japoneses e em feiras no brasil, ele é um prato muito apreciado por todas as pessoas alem da versao recheada de polvo tambem existem versoes vegetarianas recheadas com queijo</p>
+  </div>
+</div>
+
+<div class="footer">
+  <img src="img/logo.gif" alt="logo" class="logo" style="float:left">
+  <p class="footer">Rua amaro cavalheiro 340 Pinheiros Sao paulo<br>
+       telefone (11) 3443-0915 / (11) 3031-2330
+  </p>
+</div>
+</body>
+</html>

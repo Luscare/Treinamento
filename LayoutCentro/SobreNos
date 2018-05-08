@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang = "pt">
+<head>
+<title>Restaurante Japones</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="Restaurante.css">
+</head>
+
+<body background="img/fundo.png">
+<div class = "menu">
+	<a><img src= "img/logo.gif" class= "logo"></img> </a>
+	<ul class="menu">
+    	<li><a href = "Home">Home</a></li>
+    	<li><a class="active" href="SobreNos">Sobre Nós</a></li>
+        <li><div  class= "dropdown">
+          <a href="#comidas">Comidas</a>
+                <div  class = "dropdown-content">
+                	<a href ="ComidasDoces"> Doces</a>
+                  <a href ="ComidasSalgadas">Salgados</a>
+                </div>
+            </div>
+        </li>
+    	<li><a href="Contato">Contato</a></li>
+
+	</ul>
+</div>
+
+
+<div class = "content">
+  <h1>Sobre Nós</h1>
+  <h2>Nossa historia</h2>
+  <p>Começamos bem simples nesse ramo de comidas japonesas, nao tinhamos muita experiencia para atuar nesse ramo. Com o tempo a gente acabou adquirindo as tecnicas para produzir os pratos atraves de estudos e experiencias</p>
+  <h2>Nossa Filosofia</h2>
+  <p>Nos acreditamos que a melhor refeição é aquela que é acessivel a grande maioria da população, logo nós oferecemos comida de excelente qualidade a baixo preços</p>
+</div>
+
+<div class="footer">
+  <img src="img/logo.gif" alt="logo" class="logo" style="float:left">
+  <p class="footer">Rua amaro cavalheiro 340 Pinheiros Sao paulo<br>
+       telefone (11) 3443-0915 / (11) 3031-2330
+  </p>
+</div>
+
+</body>
+</html>

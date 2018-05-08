@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang = "pt">
+<head>
+<title>Restaurante Japones</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="Restaurante.css">
+</head>
+
+<body background="img/fundo.png">
+
+<div class = "menu">
+	<a><img src= "img/logo.gif" class= "logo"></img> </a>
+	<ul class="menu">
+    	<li><a  href = "Home">Home</a></li>
+    	<li><a href="SobreNos">Sobre Nós</a></li>
+        <li><div  class= "dropdown">
+          <a href="#comidas">Comidas</a>
+                <div  class = "dropdown-content">
+                	<a href ="ComidasDoces"> Doces</a>
+                  <a class="active" href ="ComidasSalgadas">Salgados</a>
+                </div>
+            </div>
+        </li>
+    	<li><a href="Contato">Contato</a></li>
+
+	</ul>
+</div>
+
+
+<div class = "content">
+  <h1>Pratos salgados</h1>
+  <div >
+  <img src="img/Omurice.jpg" alt="Prato com arroz coberto por um omelete" class = "imagem">
+  <p class="descricao">O Omurice é um prato popular japones sendo preparado com um arroz temperado misturado com varios outros ingredientes e finalizado com um omelete cru cozido</p>
+  </div>
+
+  <div >
+  <img src="img/Lamen.jpg" alt="Um bowl com duas carnes de porco um ovo cebolinha e um nori do lado com caldo ate perto da borda da vasilhame" class = "imagem"></img>
+  <p class="descricao">O lamen eh um prato tradicional japones que consiste em basicamente 3 partes o macarrão, o dashi(caldo), e os ingredientes que o acompanham. Tambem existem versoes dele quente)(lamen) e frio (hiyashi) assim podendo ser comido durante o ano inteiro</p>
+  </div>
+
+  <div >
+  <img src="img/Care.jpg" alt="Prato com arroz e curry e uma colher ao lado" class = "imagem"></img>
+  <p class="descricao">O care(curry) é um prato mtu popular no japão que pode ter varios niveis de picancia para pode agradar todos os paladares  </p>
+  </div>
+
+  <div >
+  <img src="img/Takoyaki.jpg" alt="pote com 6 bolas de takoyaki(bolinho de polvo) com molho em cima junto com maionese e Katsuobushi especie de peixe seco ralado" class = "imagem"></img>
+  <p class="descricao">O takoyaki é um prato muito popular em festivais japoneses e em feiras no brasil, ele é um prato muito apreciado por todas as pessoas alem da versao recheada de polvo tambem existem versoes vegetarianas recheadas com queijo</p>
+  </div>
+
+  <div >
+  <img src="img/Okonomiyaki.jpg" alt="macarrao sob vegetais misturado com uma massa coberto com maionese molho cebolinha" class = "imagem"></img>
+  <p class="descricao">O okonomiyaki eh um prato que é normalmente vendido em festivais e feiras, sendo popular em kansai e horoshima</p>
+  </div>
+
+  <div >
+  <img src="img/Teishoku.jpg" alt="varios pratos e bows contendo missoshiro, sashimi, entre outras coisas que eu nao sei oque que eh" class = "imagem"></img>
+  <p class="descricao">prato mtu popular para a alimentação do dia a dia dos japoneses pelo falo deles serem geralmente baratos e bem completos em relação a sua nutrição</p>
+  </div>
+
+
+</div>
+
+<div class="footer">
+  <img src="img/logo.gif" alt="logo" class="logo" style="float:left">
+  <p class="footer">Rua amaro cavalheiro 340 Pinheiros Sao paulo<br>
+       telefone (11) 3443-0915 / (11) 3031-2330
+  </p>
+</div>
+
+</body>
+</html>

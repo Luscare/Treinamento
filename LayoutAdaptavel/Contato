@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang = "pt">
+<head>
+<title>Restaurante Japones</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="Restaurante.css">
+</head>
+
+<body background="img/fundo.png">
+
+<div class = "menu">
+	<a><img src= "img/logo.gif" class= "logo"></img> </a>
+	<ul class="menu">
+    	<li><a href = "Home">Home</a></li>
+    	<li><a href="SobreNos">Sobre Nós</a></li>
+        <li><div  class= "dropdown">
+          <a href="#comidas">Comidas</a>
+                <div  class = "dropdown-content">
+                	<a href ="ComidasDoces"> Doces</a>
+                  <a href ="ComidasSalgadas">Salgados</a>
+                </div>
+            </div>
+        </li>
+    	<li><a class="active" href="Contato">Contato</a></li>
+
+	</ul>
+</div>
+
+
+<div class = "content">
+  <h1>Sobre Nós</h1>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d457.12449620167536!2d-46.69949755033381!3d-23.568588235089276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce57a62df3906f%3A0xa1dd4f48fd38c62d!2sLos+Jappas!5e0!3m2!1sen!2sbr!4v1525776121824" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+<form method="post" target="_top">
+
+  Nome:<br>
+  <input type ="text"></input><br>
+
+  Email:<br>
+  <input type ="email"></input><br>
+
+  Mensagem:<br>
+  <textarea name="mensagem" rows="10" cols="40"></textarea><br><br>
+
+  <input type="submit" value="enviar" onclick="alert('entraremos em contato o mais cedo possivel')" class= "submeter"></input>
+
+</form>
+</div>
+
+<div class="footer">
+  <img src="img/logo.gif" alt="logo" class="logoFooter" style="float:left">
+  <p class="footer">Rua amaro cavalheiro 340 Pinheiros Sao paulo<br>
+       telefone (11) 3443-0915 / (11) 3031-2330
+  </p>
+</div>
+
+</body>
+</html>
